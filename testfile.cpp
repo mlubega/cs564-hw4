@@ -378,6 +378,7 @@ int main(int argc, char **argv)
             if (rec2.i >= j || rec2.f != dbrec2.length || rec2.s[0] != 32+dbrec2.length-8)
                 cout << "err0r reading record " << i << " back" << endl;
             i++;
+//			cout << "Rec " << i << "sucessfulluy"; 
         }
         if (status != FILEEOF)
             error.print(status);
